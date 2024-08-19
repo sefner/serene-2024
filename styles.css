@@ -25,6 +25,18 @@ header {
     text-align: center;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
 header h1 {
     margin: 0;
     font-size: 2.5em;
@@ -120,5 +132,13 @@ footer {
 
     main h2 {
         font-size: 1.5em;
+    }
+
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 0 0 10px 0;
     }
 }
